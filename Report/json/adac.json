@@ -1,0 +1,732 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 5,
+        "name": "login details",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 10447307200,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User on the adactin page",
+            "match": {
+              "location": "AdactinDefination.user_on_the_adactin_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1667863600,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user login the page by passing Username and password",
+            "match": {
+              "location": "AdactinDefination.user_login_the_page_by_passing_Username_and_password()"
+            },
+            "keyword": "When "
+          }
+        ]
+      },
+      {
+        "line": 11,
+        "name": "booking the hotel",
+        "description": "",
+        "id": "verify-adactin-page;booking-the-hotel",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1965859200,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "User on the process of location,numberofrooms,checkindate,checkoutdate,Adultsperroom",
+            "match": {
+              "location": "AdactinDefination.user_on_the_process_of_location_numberofrooms_checkindate_checkoutdate_Adultsperroom()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2168871600,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "User selected the hotel",
+            "match": {
+              "location": "AdactinDefination.user_selected_the_hotel()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1543335400,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "user gives the first,last,bilingaddress,ccardnum,cctype,expmonth,expyear,cvv",
+            "match": {
+              "location": "AdactinDefination.user_gives_the_first_last_bilingaddress_ccardnum_cctype_expmonth_expyear_cvv()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 5864878900,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "user moves to confirmation page",
+            "match": {
+              "location": "AdactinDefination.user_moves_to_confirmation_page()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@reg"
+          },
+          {
+            "name": "@smoke"
+          }
+        ]
+      },
+      {
+        "line": 5,
+        "name": "login details",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 6585967200,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User on the adactin page",
+            "match": {
+              "location": "AdactinDefination.user_on_the_adactin_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1195731400,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user login the page by passing Username and password",
+            "match": {
+              "location": "AdactinDefination.user_login_the_page_by_passing_Username_and_password()"
+            },
+            "keyword": "When "
+          }
+        ]
+      },
+      {
+        "line": 27,
+        "name": "select and book the hotel",
+        "description": "",
+        "id": "verify-adactin-page;select-and-book-the-hotel;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 1887613700,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "User on the process of \"Sydney\",\"2 - Two\",\"26/01/2021\",\"27/01/2021\",\"4 - Four\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Sydney\"",
+                  "offset": 23
+                },
+                {
+                  "val": "\"2 - Two\"",
+                  "offset": 32
+                },
+                {
+                  "val": "\"26/01/2021\"",
+                  "offset": 42
+                },
+                {
+                  "val": "\"27/01/2021\"",
+                  "offset": 55
+                },
+                {
+                  "val": "\"4 - Four\"",
+                  "offset": 68
+                }
+              ],
+              "location": "AdactinDefination.user_on_the_process_of(String,String,String,String,String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1100304100,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "User selected continue option",
+            "match": {
+              "location": "AdactinDefination.user_selected_continue_option()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1877843800,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "user gives the \"Abara\",\"murugan\",\"chennai\",\"1234567890098765\",\"VISA\",\"December\",\"2022\",\"123\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Abara\"",
+                  "offset": 15
+                },
+                {
+                  "val": "\"murugan\"",
+                  "offset": 23
+                },
+                {
+                  "val": "\"chennai\"",
+                  "offset": 33
+                },
+                {
+                  "val": "\"1234567890098765\"",
+                  "offset": 43
+                },
+                {
+                  "val": "\"VISA\"",
+                  "offset": 62
+                },
+                {
+                  "val": "\"December\"",
+                  "offset": 69
+                },
+                {
+                  "val": "\"2022\"",
+                  "offset": 80
+                },
+                {
+                  "val": "\"123\"",
+                  "offset": 87
+                }
+              ],
+              "location": "AdactinDefination.user_gives_the(String,String,String,String,String,String,String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 5852861900,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "user confirms the booking",
+            "match": {
+              "location": "AdactinDefination.user_confirms_the_booking()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@reg"
+          },
+          {
+            "name": "@sanity"
+          }
+        ]
+      },
+      {
+        "line": 5,
+        "name": "login details",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 5844092200,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User on the adactin page",
+            "match": {
+              "location": "AdactinDefination.user_on_the_adactin_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1840612500,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user login the page by passing Username and password",
+            "match": {
+              "location": "AdactinDefination.user_login_the_page_by_passing_Username_and_password()"
+            },
+            "keyword": "When "
+          }
+        ]
+      },
+      {
+        "line": 28,
+        "name": "select and book the hotel",
+        "description": "",
+        "id": "verify-adactin-page;select-and-book-the-hotel;;3",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 1752992800,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "User on the process of \"Melbourne\",\"2 - Two\",\"26/01/2021\",\"27/01/2021\",\"4 - Four\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Melbourne\"",
+                  "offset": 23
+                },
+                {
+                  "val": "\"2 - Two\"",
+                  "offset": 35
+                },
+                {
+                  "val": "\"26/01/2021\"",
+                  "offset": 45
+                },
+                {
+                  "val": "\"27/01/2021\"",
+                  "offset": 58
+                },
+                {
+                  "val": "\"4 - Four\"",
+                  "offset": 71
+                }
+              ],
+              "location": "AdactinDefination.user_on_the_process_of(String,String,String,String,String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 890637900,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "User selected continue option",
+            "match": {
+              "location": "AdactinDefination.user_selected_continue_option()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2075527800,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "user gives the \"Abara2\",\"murugan2\",\"chennai\",\"1234567890098765\",\"VISA\",\"December\",\"2022\",\"123\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Abara2\"",
+                  "offset": 15
+                },
+                {
+                  "val": "\"murugan2\"",
+                  "offset": 24
+                },
+                {
+                  "val": "\"chennai\"",
+                  "offset": 35
+                },
+                {
+                  "val": "\"1234567890098765\"",
+                  "offset": 45
+                },
+                {
+                  "val": "\"VISA\"",
+                  "offset": 64
+                },
+                {
+                  "val": "\"December\"",
+                  "offset": 71
+                },
+                {
+                  "val": "\"2022\"",
+                  "offset": 82
+                },
+                {
+                  "val": "\"123\"",
+                  "offset": 89
+                }
+              ],
+              "location": "AdactinDefination.user_gives_the(String,String,String,String,String,String,String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 5795690400,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "user confirms the booking",
+            "match": {
+              "location": "AdactinDefination.user_confirms_the_booking()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@reg"
+          },
+          {
+            "name": "@sanity"
+          }
+        ]
+      },
+      {
+        "line": 5,
+        "name": "login details",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 6187860300,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User on the adactin page",
+            "match": {
+              "location": "AdactinDefination.user_on_the_adactin_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1357819500,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user login the page by passing Username and password",
+            "match": {
+              "location": "AdactinDefination.user_login_the_page_by_passing_Username_and_password()"
+            },
+            "keyword": "When "
+          }
+        ]
+      },
+      {
+        "line": 29,
+        "name": "select and book the hotel",
+        "description": "",
+        "id": "verify-adactin-page;select-and-book-the-hotel;;4",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 1881011000,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "User on the process of \"Brisbane\",\"2 - Two\",\"26/01/2021\",\"27/01/2021\",\"4 - Four\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Brisbane\"",
+                  "offset": 23
+                },
+                {
+                  "val": "\"2 - Two\"",
+                  "offset": 34
+                },
+                {
+                  "val": "\"26/01/2021\"",
+                  "offset": 44
+                },
+                {
+                  "val": "\"27/01/2021\"",
+                  "offset": 57
+                },
+                {
+                  "val": "\"4 - Four\"",
+                  "offset": 70
+                }
+              ],
+              "location": "AdactinDefination.user_on_the_process_of(String,String,String,String,String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1000856700,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "User selected continue option",
+            "match": {
+              "location": "AdactinDefination.user_selected_continue_option()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1839381100,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "user gives the \"Abara3\",\"murugan3\",\"chennai\",\"1234567890098765\",\"VISA\",\"December\",\"2022\",\"123\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Abara3\"",
+                  "offset": 15
+                },
+                {
+                  "val": "\"murugan3\"",
+                  "offset": 24
+                },
+                {
+                  "val": "\"chennai\"",
+                  "offset": 35
+                },
+                {
+                  "val": "\"1234567890098765\"",
+                  "offset": 45
+                },
+                {
+                  "val": "\"VISA\"",
+                  "offset": 64
+                },
+                {
+                  "val": "\"December\"",
+                  "offset": 71
+                },
+                {
+                  "val": "\"2022\"",
+                  "offset": 82
+                },
+                {
+                  "val": "\"123\"",
+                  "offset": 89
+                }
+              ],
+              "location": "AdactinDefination.user_gives_the(String,String,String,String,String,String,String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 6812439300,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "user confirms the booking",
+            "match": {
+              "location": "AdactinDefination.user_confirms_the_booking()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@reg"
+          },
+          {
+            "name": "@sanity"
+          }
+        ]
+      },
+      {
+        "line": 5,
+        "name": "login details",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 7491667600,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User on the adactin page",
+            "match": {
+              "location": "AdactinDefination.user_on_the_adactin_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1613110200,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user login the page by passing Username and password",
+            "match": {
+              "location": "AdactinDefination.user_login_the_page_by_passing_Username_and_password()"
+            },
+            "keyword": "When "
+          }
+        ]
+      },
+      {
+        "line": 30,
+        "name": "select and book the hotel",
+        "description": "",
+        "id": "verify-adactin-page;select-and-book-the-hotel;;5",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 1777899600,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "User on the process of \"Adelaide\",\"2 - Two\",\"26/01/2021\",\"27/01/2021\",\"4 - Four\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Adelaide\"",
+                  "offset": 23
+                },
+                {
+                  "val": "\"2 - Two\"",
+                  "offset": 34
+                },
+                {
+                  "val": "\"26/01/2021\"",
+                  "offset": 44
+                },
+                {
+                  "val": "\"27/01/2021\"",
+                  "offset": 57
+                },
+                {
+                  "val": "\"4 - Four\"",
+                  "offset": 70
+                }
+              ],
+              "location": "AdactinDefination.user_on_the_process_of(String,String,String,String,String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1101648600,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "User selected continue option",
+            "match": {
+              "location": "AdactinDefination.user_selected_continue_option()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2388833000,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "user gives the \"Abara4\",\"murugan4\",\"chennai\",\"1234567890098765\",\"VISA\",\"December\",\"2022\",\"123\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Abara4\"",
+                  "offset": 15
+                },
+                {
+                  "val": "\"murugan4\"",
+                  "offset": 24
+                },
+                {
+                  "val": "\"chennai\"",
+                  "offset": 35
+                },
+                {
+                  "val": "\"1234567890098765\"",
+                  "offset": 45
+                },
+                {
+                  "val": "\"VISA\"",
+                  "offset": 64
+                },
+                {
+                  "val": "\"December\"",
+                  "offset": 71
+                },
+                {
+                  "val": "\"2022\"",
+                  "offset": 82
+                },
+                {
+                  "val": "\"123\"",
+                  "offset": 89
+                }
+              ],
+              "location": "AdactinDefination.user_gives_the(String,String,String,String,String,String,String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 5948545800,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "user confirms the booking",
+            "match": {
+              "location": "AdactinDefination.user_confirms_the_booking()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@reg"
+          },
+          {
+            "name": "@sanity"
+          }
+        ]
+      }
+    ],
+    "name": "verify Adactin page",
+    "description": "",
+    "id": "verify-adactin-page",
+    "keyword": "Feature",
+    "uri": "src/test/resources/Feature/adactin.feature",
+    "tags": []
+  }
+]

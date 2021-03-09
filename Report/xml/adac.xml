@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="5" time="99.767479">
+<testcase classname="verify Adactin page" name="booking the hotel" time="23.664352">
+<system-out><![CDATA[Given User on the adactin page..............................................passed
+When user login the page by passing Username and password...................passed
+When User on the process of location,numberofrooms,checkindate,checkoutdate,Adultsperroom.passed
+When User selected the hotel................................................passed
+When user gives the first,last,bilingaddress,ccardnum,cctype,expmonth,expyear,cvv.passed
+Then user moves to confirmation page........................................passed
+]]></system-out>
+</testcase>
+<testcase classname="verify Adactin page" name="select and book the hotel" time="18.500745">
+<system-out><![CDATA[Given User on the adactin page..............................................passed
+When user login the page by passing Username and password...................passed
+Given User on the process of "Sydney","2 - Two","26/01/2021","27/01/2021","4 - Four".passed
+When User selected continue option..........................................passed
+When user gives the "Abara","murugan","chennai","1234567890098765","VISA","December","2022","123".passed
+Then user confirms the booking..............................................passed
+]]></system-out>
+</testcase>
+<testcase classname="verify Adactin page" name="select and book the hotel 2" time="18.200118">
+<system-out><![CDATA[Given User on the adactin page..............................................passed
+When user login the page by passing Username and password...................passed
+Given User on the process of "Melbourne","2 - Two","26/01/2021","27/01/2021","4 - Four".passed
+When User selected continue option..........................................passed
+When user gives the "Abara2","murugan2","chennai","1234567890098765","VISA","December","2022","123".passed
+Then user confirms the booking..............................................passed
+]]></system-out>
+</testcase>
+<testcase classname="verify Adactin page" name="select and book the hotel 3" time="19.079826">
+<system-out><![CDATA[Given User on the adactin page..............................................passed
+When user login the page by passing Username and password...................passed
+Given User on the process of "Brisbane","2 - Two","26/01/2021","27/01/2021","4 - Four".passed
+When User selected continue option..........................................passed
+When user gives the "Abara3","murugan3","chennai","1234567890098765","VISA","December","2022","123".passed
+Then user confirms the booking..............................................passed
+]]></system-out>
+</testcase>
+<testcase classname="verify Adactin page" name="select and book the hotel 4" time="20.322438">
+<system-out><![CDATA[Given User on the adactin page..............................................passed
+When user login the page by passing Username and password...................passed
+Given User on the process of "Adelaide","2 - Two","26/01/2021","27/01/2021","4 - Four".passed
+When User selected continue option..........................................passed
+When user gives the "Abara4","murugan4","chennai","1234567890098765","VISA","December","2022","123".passed
+Then user confirms the booking..............................................passed
+]]></system-out>
+</testcase>
+</testsuite>
